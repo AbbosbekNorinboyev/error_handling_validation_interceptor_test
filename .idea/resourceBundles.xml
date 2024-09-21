@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ResourceBundleManager">
+    <file url="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/i18n/messages_en_GB.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/i18n/messages_en_US.properties" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/i18n/messages_uz.properties" />
+    <custom-resource-bundle>
+      <file value="file://$PROJECT_DIR$/src/main/resources/i18n/messages.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/i18n/messages_en_GB.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/i18n/messages_en_US.properties" />
+      <file value="file://$PROJECT_DIR$/src/main/resources/i18n/messages_uz.properties" />
+      <base-name>messages</base-name>
+    </custom-resource-bundle>
+  </component>
+</project>

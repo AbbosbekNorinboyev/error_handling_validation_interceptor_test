@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"
+    xmlns:th="http://www.thymeleaf.org"
+>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+    <style>
+        .error {
+            color: red;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+<h1>Login Page</h1>
+<div th:if="${error_message}">
+    <h1 th:text="${error_message}" class="error"></h1>
+</div>
+<form method="post">
+    <input type="submit" value="Login"/>
+</form>
+</body>
+</html>
